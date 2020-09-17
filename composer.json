@@ -25,6 +25,7 @@
         "league/flysystem-aws-s3-v3": "^1.0",
         "league/statsd": "^1.5",
         "monicahq/laravel-cloudflare": "^1.7",
+        "ocramius/package-versions": "^1.9",
         "pusher/pusher-php-server": "^4.1",
         "sentry/sentry-laravel": "^1.9",
         "sikhlana/laravel-modular": "^1.0",

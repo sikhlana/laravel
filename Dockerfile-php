@@ -33,6 +33,8 @@ COPY --from=assets /app/public/mix-manifest.json /app/public/mix-manifest.json
 RUN mkdir /app/storage \
     && chown app:app -R /app
 
+ENV COMPOSER_MEMORY_LIMIT=-1
+
 USER app
 WORKDIR /app
 
